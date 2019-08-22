@@ -91,6 +91,10 @@ footer {
 
 .dropdown:hover .dropbtn {background-color: #3e8e41;}
 
+footer {
+    padding-top: 50px;
+}
+
 /* 
 color pattern:
 geel: hex: #e1ff00 rgb: rgb(225, 255, 0)

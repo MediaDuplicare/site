@@ -3,6 +3,7 @@ table{
     flex-wrap: wrap;
     justify-content: center;
     padding: 30px;
+    padding-bottom: 120px;
 }
 
 tr{
