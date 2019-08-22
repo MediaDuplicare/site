@@ -1,0 +1,99 @@
+body {
+  background-color: #333;
+  color: #aaa;
+  font-family: 'Josefin Sans';
+}
+
+.calendar {
+  width: 350px;
+  margin: 50px auto 0;
+}
+
+.calendar__month {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
+
+.cal-month__previous,
+.cal-month__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  
+  &:hover {
+    background-color: #42A5F5;
+    box-shadow: 0 5px 5px -5px rgba(0,0,0,0.75);
+    border-radius: 50%;
+    font-weight: 800;
+    color: #111;
+  }
+}
+
+.cal-month__next {
+  right: 0;
+}
+
+.cal-month__current {
+  text-align: center;
+  color: #e1e1e1;
+}
+
+.cal-head__day,
+.cal-body__day {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.cal-body__week,
+.calendar__head {
+  display: block;
+  height: 50px;
+  width: 350px;
+}
+
+.calendar__head {
+  line-height: 50px;
+  position: relative;
+  
+  &:after {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background-color: #90CAF9;
+  }
+}
+
+.cal-body__day {
+  color: #777;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cal-day__month--current {
+  color: #e1e1e1;
+}
+
+.cal-day__day--today {
+  font-weight: 800;
+  color: #2196f3;
+}
+
+.cal-day__day--selected {
+  background-color: #2196f3;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, .75);
+  border-radius: 50%;
+  color: #111;
+}
