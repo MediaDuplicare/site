@@ -2,16 +2,17 @@ table{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 30px;
-    padding-bottom: 120px;
 }
 
 tr{
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 th:hover{
     transform: scale(1.1);
+    
 }
 
 img{
