@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 5%;
 }
 
 .clublied{
@@ -15,5 +16,5 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 120px;    
+    padding-bottom: 120px;
 }

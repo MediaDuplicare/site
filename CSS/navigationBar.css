@@ -1,9 +1,11 @@
 .navbar{ /* nav-element */
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
+    position: fixed;
+    width: 100%;
+    margin: 0;
 }
 
 .navbarList{ /* ul-element */
@@ -13,7 +15,6 @@
     border-collapse: collapse;
     border-color: #a0a0a0;
     background-color: #a0a0a0;
-    opacity: 0.8;
 }
 
 .navbarList-item{ /* li-element */
@@ -55,13 +56,13 @@ a{
 }
 
 .dropdown {
-  position: relative;
+  position: sticky;
   display: inline-block;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: sticky;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -79,11 +80,6 @@ a{
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-footer {
-    padding-top: 50px;
-}
 
 /*
 color pattern:
