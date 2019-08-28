@@ -1,0 +1,52 @@
+table{
+    padding-top: 9%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+th:hover{
+    transform: scale(1);
+    
+}
+
+img{
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    margin: 12px;
+}
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  height: 200px;
+  width: 200px;
+    border-radius: 5%;
+    margin: 12px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #0171BB;
+  visibility: hidden;
+  opacity: 0.5;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
