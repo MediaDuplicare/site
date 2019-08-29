@@ -1,4 +1,26 @@
- footer {
+/* - Header  */
+/* -- Logo */
+.headerlogo{
+	display: inline; 
+	vertical-align: middle;
+}
+
+.headertxt{
+	display: inline; 
+}
+
+
+/* --Navigation */
+
+
+/* - Body */
+
+
+
+
+/* - Footer */
+
+footer {
     position: inherit;
     left: 0;
     bottom: 0;
@@ -7,3 +29,4 @@
     text-align: center;
     padding-bottom: 20px;
 }
+
