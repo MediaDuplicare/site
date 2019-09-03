@@ -1,5 +1,4 @@
 table{
-    padding-top: 9%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,7 +12,7 @@ tr{
 
 th:hover{
     transform: scale(1.1);
-    
+
 }
 
 img{
