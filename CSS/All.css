@@ -5,10 +5,12 @@ header {
 .algemeen {
     padding-top: 5%;
 }
+
  footer {
     position: static;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
+    padding-top: 20px;
 }
