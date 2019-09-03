@@ -3,12 +3,26 @@
     height: 300px;
 }
 
-.algemeen {
+.schild {
+  text-align: center;
+  margin-left: 10%;
+  float:left;
+}
+ .clublied {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 15% }
+.info {
+  text-align: center;
+  margin-right: 10%;
+  float: right;
+}
+/* algemeen {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5%;
 }
 
 .clublied{
@@ -17,4 +31,4 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 120px;
-}
+}*/
