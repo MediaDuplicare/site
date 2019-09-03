@@ -5,7 +5,9 @@ header {
 .algemeen {
     padding-top: 5%;
 }
-
+.rest h1 {
+text-align: center;
+}
  footer {
     position: static;
     bottom: 0;
