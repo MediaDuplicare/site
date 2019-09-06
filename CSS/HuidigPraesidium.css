@@ -42,7 +42,7 @@ img{
   color: #0171BB;
   visibility: hidden;
   opacity: 0.5;
-  margin-top: -30px;
+  margin-top: -50px;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
