@@ -9,15 +9,17 @@ p{
     font-size: 20px;
 }
 
-button{
-    font-size: 20px;
-    width: 25%
-    margin: 5px;
-    background-color: #EC1A25;
-    color: white;
-    display: block;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+input{
+    margin:0px auto; 
+    display:block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     text-align: center;
+    width: 10%;
+    
+}
+
+input:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
 }

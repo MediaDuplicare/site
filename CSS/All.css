@@ -16,3 +16,26 @@ text-align: center;
     text-align: center;
     padding-top: 20px;
 }
+
+.nieuwtjes{
+    display: grid;
+    justify-content: end;
+    
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 5%;
+    
+}
