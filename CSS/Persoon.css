@@ -1,0 +1,25 @@
+h1{
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;
+}
+
+p{
+    margin: 5%;
+    font-size: 20px;
+}
+
+input{
+    margin:0px auto; 
+    display:block;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+    
+}
+
+input:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);   
+}

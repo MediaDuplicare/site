@@ -1,0 +1,54 @@
+table{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: 1;
+}
+
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+th:hover{
+    transform: scale(1.1);
+
+}
+
+img{
+    border-radius: 5%;
+    width: 200px;
+    height: 200px;
+    margin: 1200x;
+    
+}
+
+/* relevant styles */
+.img__wrap {
+  position: static;
+  height: 200px;
+  width: 200px;
+    border-radius: 5%;
+    margin: 12px;
+}
+
+.img__description {
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #0171BB;
+  visibility: hidden;
+  opacity: 0.5;
+  margin-top: -50px;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,9 +1,41 @@
+header {
+    margin-top: -25px;
+    margin-left: -10px
+}
+.algemeen {
+    padding-top: 5%;
+}
+.rest h1 {
+text-align: center;
+}
  footer {
-    position: inherit;
-    left: 0;
+    position: static;
     bottom: 0;
     width: 100%;
     color: white;
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.nieuwtjes{
+    display: grid;
+    justify-content: end;
+    
+}
+
+.right {
+  right: 0;
+  background-color: red;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    margin: 5%;
+    
 }

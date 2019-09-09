@@ -1,24 +1,13 @@
-h1{
-    color: red;
-    display: grid;
-    float: right;
-    width: 50%;
-    padding: 10px;
-    
-}
-
 p {
-    display: grid;
     float: right;
+    display: grid;
     width: 50%;
-    padding: 20px;
-    text-align: inherit
+    text-align: inherit;
+    margin-right: 10%
 }
 
 #picture {
-    width: 500px;
-    height: 500px;
-    margin: 20px;
-    padding: 20px;
-    margin-left: 100px;
+    width: 30%;
+    height: 30%;
+    margin-left: 5%;
 }
