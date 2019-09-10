@@ -1,3 +1,11 @@
 div{
     text-align: center;
 }
+
+div h1 {
+    font-family: "courier new light";
+}
+
+div p{
+    font-family: "helvetica";
+}
