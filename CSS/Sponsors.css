@@ -1,10 +1,12 @@
 table{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    align-content: center;
+    z-index: 1;
 }
 
-a{
-    font-family: "comic-sans ms";
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

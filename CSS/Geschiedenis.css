@@ -8,4 +8,17 @@ div h1 {
 
 div p{
     font-family: "helvetica";
+    padding-bottom: 3%;
+}
+
+.goud{
+    color: #FDF202;
+}
+
+.keel{
+    color: #EC1A25;
+}
+
+.azuur{
+    color: #0171BB;
 }
