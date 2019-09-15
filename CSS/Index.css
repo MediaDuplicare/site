@@ -1,0 +1,32 @@
+.nieuwtjes2 {
+    border: none;
+    padding: 5px;
+    font-family: "Ariel";
+    font-size: 10px;
+    width: 50%;
+    height: ;
+    overflow: scroll;
+}
+
+/* Scrollbar styles */
+/*::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: yellowgreen;  
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+        background: #88ba1c;  
+}*/
+
+.nieuwtjes{
+    margin-left: 50%;
+    width: 50%;
+    height: 40%
+    overflow:auto;
+    padding:5px;
+}
