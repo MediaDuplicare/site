@@ -1,3 +1,26 @@
-.test{
+.test div{
     padding-bottom: 110px;
+    display: inline-block;
+    text-align: center;
+}
+
+img{
+    width: 15%;
+    height: 15%;
+    
+    text-align: center;
+}
+
+.algemeen{
+    text-align: center;
+    
+}
+
+.test div h1{
+    
+    text-align: center;
+}
+
+.test div p{
+    font-family: "Ariel";
 }
