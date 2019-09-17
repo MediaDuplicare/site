@@ -5,12 +5,20 @@
     height: 40%
     overflow: auto;
     padding:5px;
+    background-color: #0171BB;
+    opacity: 0.5;
 }
 
 .nieuwtje h1{
     font-family: "New courier";
+    opacity: 1.0;
 }
 
 .nieuwtje p{
     font-family: "courier new light";
+    opacity: 1.0;
+}
+
+.algemeen{
+    margin-right: 20px;
 }
