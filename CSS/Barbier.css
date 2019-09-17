@@ -5,16 +5,13 @@
     margin-top: 3%
 }
 
+.cafe p{
+    text-align: justify;
+}
+
 .cafe{
     display: flex;
     justify-content: center;
-}
-
-.cafe figure{
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 20%;
 }
 
 .mapouter{
@@ -28,8 +25,17 @@
 }
 
 .gmap_canvas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow:hidden;
     background:none!important;
     height:200px;
     width:300px;
+}
+
+.gmap_canvas iframe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

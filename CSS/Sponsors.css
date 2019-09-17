@@ -5,19 +5,19 @@ table{
     align-items: center;
 }
 */
-
 .algemeen{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-table{
+#test{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    z-index: 1;
-    margin: auto;
+    z-index: 1; 
+    margin-right: auto;
+    margin-left: auto;
 }
 
 tr{
@@ -27,6 +27,5 @@ tr{
 }
 
 img{
-    width: 30%;
-    height: 30%;
+    padding: 10px;
 }
