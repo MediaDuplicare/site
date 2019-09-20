@@ -1,5 +1,9 @@
+.test{
+    
+}
+
 .test div{
-    padding-bottom: 110px;
+    
     display: inline-block;
     text-align: center;
 }
@@ -7,7 +11,6 @@
 img{
     width: 15%;
     height: 15%;
-    
     text-align: center;
 }
 
@@ -23,4 +26,25 @@ img{
 
 .test div p{
     font-family: "Ariel";
+}
+
+#Marjolein{
+    align-content: center;
+    width: 20%;
+}
+
+#Scott{
+    width: 300px;
+}
+
+#Kenny{
+    width: 300px;
+}
+
+#Bert{
+    width: 300px;
+}
+
+#Valerie{
+    width: 300opx;
 }
