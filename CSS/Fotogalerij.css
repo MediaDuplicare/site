@@ -15,14 +15,14 @@ body {
 }
 
 /* Style the images inside the grid */
-.column img {
+/*.column img {
   opacity: 0.8; 
   cursor: pointer; 
 }
 
 .column img:hover {
   opacity: 1;
-}
+}*/
 
 /* Clear floats after the columns */
 .row:after {
