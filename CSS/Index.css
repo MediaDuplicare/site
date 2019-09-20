@@ -1,11 +1,22 @@
+.algemeen{
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+
+.kalender{
+    width: 25%;
+    float:left; /* add this */
+    padding-top: 1%;
+    padding-left: 10%;
+}
+
 .nieuwtjes{
-    background: #0171BB;
     padding-top: 1%;
     margin-left: 50%;
     width: 50%;
     height: 40%
     overflow: auto;
     padding:5px;
+    padding-right: 10%;
 }
 
 .nieuwtje h1{

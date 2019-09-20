@@ -1,9 +1,4 @@
-.test{
-    
-}
-
-.test div{
-    
+.test div{    
     display: inline-block;
     text-align: center;
 }
@@ -15,12 +10,10 @@ img{
 }
 
 .algemeen{
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .test div h1{
-    
     text-align: center;
 }
 
