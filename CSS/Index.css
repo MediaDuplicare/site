@@ -1,11 +1,11 @@
 .nieuwtjes{
+    background: #0171BB;
     padding-top: 1%;
     margin-left: 50%;
     width: 50%;
     height: 40%
     overflow: auto;
     padding:5px;
-    background-color: #0171BB;
 }
 
 .nieuwtje h1{

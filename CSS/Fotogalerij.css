@@ -10,7 +10,7 @@ body {
 /* The grid: Four equal columns that floats next to each other */
 .column {
   float: left;
-  width: auto;
+  width: 25%;
   padding: 10px;
 }
 
@@ -33,9 +33,8 @@ body {
 
 /* The expanding image container */
 .container {
-  /*position: relative;*/
+  position:fixed;
   display: none;
-  width: 50%;
 }
 
 /* Expanding image text */
