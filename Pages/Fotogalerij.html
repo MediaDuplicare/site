@@ -37,7 +37,7 @@
   </header>
 
 <!-- The four columns -->
-<!--<div class="row" style="padding-top: 5%">
+<div class="row" style="padding-top: 5%">
   <div class="column">
     <img src="../Pictures/placeholder.png" alt="Nature" style="width:100%" onclick="myFunction(this);">
   </div>
@@ -50,7 +50,12 @@
   <div class="column">
     <img src="../Pictures/placeholder.png" alt="Lights" style="width:100%" onclick="myFunction(this);">
   </div>
-</div>-->
+</div>
+    <div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
 
     
     <footer>
@@ -60,7 +65,7 @@
     </footer>
 </body>
 </html>
-<!--<script>
+<script>
 function myFunction(imgs) {
   var expandImg = document.getElementById("expandedImg");
   var imgText = document.getElementById("imgtext");
@@ -68,4 +73,4 @@ function myFunction(imgs) {
   imgText.innerHTML = imgs.alt;
   expandImg.parentElement.style.display = "block";
 }
-</script>-->
+</script>
