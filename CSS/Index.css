@@ -2,12 +2,20 @@
     overflow: hidden; /* will contain if #first is longer than #second */
 }
 
+#underHeader{
+    background-image: url(../Pictures/Wapenschild.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px;
+}
+
 h1{
     /*padding-top: 5%;*/
     font-size: 100px;
     text-align: center;
     border: 2px black;
-    
+    color: white;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 h1 span{
