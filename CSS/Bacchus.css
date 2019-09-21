@@ -1,6 +1,3 @@
-.bacchi{
-}
-
 .test div{    
     display: inline-block;
     text-align: center;
@@ -15,10 +12,11 @@ img{
 
 .test div h1{
     text-align: center;
+    margin-top: -20px;
 }
 
-.test div p{
-    font-family: "Ariel";
+p{
+    font-size: 30px;;
 }
 
 #Marjolein{
