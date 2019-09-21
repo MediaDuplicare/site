@@ -2,10 +2,22 @@
     overflow: hidden; /* will contain if #first is longer than #second */
 }
 
+h1{
+    /*padding-top: 5%;*/
+    font-size: 100px;
+    text-align: center;
+    border: 2px black;
+    
+}
+
+h1 span{
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+
 .kalender{
     width: 25%;
     float:left; /* add this */
-    padding-top: 1%;
+    /*padding-top: 1%;*/
     padding-left: 10%;
 }
 
@@ -15,11 +27,11 @@
     width: 50%;
     height: 40%
     overflow: auto;
-    padding:5px;
+    
     padding-right: 10%;
 }
 
-.nieuwtje h1{
+.nieuwtje h2{
     font-family: "New courier";
 }
 
@@ -29,4 +41,16 @@
 
 .algemeen{
     margin-right: 20px;
+}
+
+#goud{
+    color: #FDF202;
+}
+
+#keel{
+    color: #EC1A25;
+}
+
+#azuur{
+    color: #0171BB;
 }

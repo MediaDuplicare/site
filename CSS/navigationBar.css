@@ -37,7 +37,7 @@ a{
 .trooperLink{
     display: flex;
     justify-content: center;
-    padding-top: 24rem;
+    /*padding-top: 24rem;*/
 }
 
 #fb_logo{
