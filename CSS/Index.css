@@ -10,6 +10,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center; 
+    align-self: center;
     border-style: solid;
     width: 600px;
 }
@@ -20,6 +22,7 @@
     justify-content: center;
     align-items: center;
 }
+
 
 h1{
     /*padding-top: 5%;*/
@@ -43,7 +46,12 @@ table th{
     padding: 10px;
 }
 
-.infotext{
+.infotext h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.infotext p{
     text-align: center;
     font-size: 20px;
 }
@@ -54,10 +62,6 @@ table th{
 
 .nieuwtje p{
     font-family: "courier new light";
-}
-
-.nieuwtjes{
-    align-content: center;
 }
 
 
