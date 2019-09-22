@@ -1,12 +1,24 @@
-.algemeen{
-    overflow: hidden; /* will contain if #first is longer than #second */
-}
-
 #underHeader{
     background-image: url(../Pictures/Wapenschild.png);
     background-repeat: no-repeat;
     background-position: center;
     padding: 20px;
+}
+
+.nieuwtjes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 600px;
+}
+
+.nieuwtje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 h1{
@@ -18,34 +30,6 @@ h1{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
-.accordion {
-  width: 50%;
-  background-color: #eee;
-  color: #444;
-  cursor: pointer;
-  padding: 18px;
-  margin-left: 20px;
-  width: 700px;;
-  border: none;
-  text-align: center;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #ccc; 
-}
-
-.panel {
-  /*padding: 0 18px;*/
-  display: none;
-  background-color: white;
-  overflow: hidden;
-  width: 50%;
-  margin-left: 30px;
-}
-
 h1 span{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
@@ -53,7 +37,6 @@ h1 span{
 table{
     margin-left: 40px;
     width: 700px;
-    
 }
 
 table th{
@@ -65,28 +48,16 @@ table th{
     font-size: 20px;
 }
 
-.algemeen{
-    overflow: hidden;
-}
-
-.kalender{
-    float: left;
-    width: 500px;
-}
-
-.nieuwtjes{
-    /*padding-top: 1%;*/
-    margin-left: 50%;
-    overflow: auto;   
-    padding-right: 10%;
-}
-
 .nieuwtje h2{
     font-family: "New courier";
 }
 
 .nieuwtje p{
     font-family: "courier new light";
+}
+
+.nieuwtjes{
+    align-content: center;
 }
 
 

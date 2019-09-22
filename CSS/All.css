@@ -17,12 +17,6 @@ text-align: center;
     padding-top: 20px;
 }
 
-.nieuwtjes{
-    display: grid;
-    justify-content: end;
-    
-}
-
 .right {
   right: 0;
   background-color: red;
