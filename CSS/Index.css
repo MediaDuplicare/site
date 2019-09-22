@@ -18,24 +18,60 @@ h1{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
+.accordion {
+  width: 50%;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  margin-left: 20px;
+  width: 700px;;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  /*padding: 0 18px;*/
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  width: 50%;
+  margin-left: 30px;
+}
+
 h1 span{
     text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
+table{
+    margin-left: 40px;
+    width: 900px;
+}
+
+table th{
+    padding: 10px;
+}
+
+.algemeen{
+    overflow: hidden;
+}
+
 .kalender{
-    width: 25%;
-    float:left; /* add this */
-    /*padding-top: 1%;*/
-    padding-left: 10%;
+    float: left;
+    width: 500px;
 }
 
 .nieuwtjes{
-    padding-top: 1%;
+    /*padding-top: 1%;*/
     margin-left: 50%;
-    width: 50%;
-    height: 40%
-    overflow: auto;
-    
+    overflow: auto;   
     padding-right: 10%;
 }
 
@@ -47,9 +83,6 @@ h1 span{
     font-family: "courier new light";
 }
 
-.algemeen{
-    margin-right: 20px;
-}
 
 #goud{
     color: #FDF202;
@@ -61,4 +94,16 @@ h1 span{
 
 #azuur{
     color: #0171BB;
+}
+
+#goud-background{
+    background-color: #FDF202;
+}
+
+#keel-background{
+    background-color: #EC1A25;
+}
+
+#azuur-background{
+    background-color: #0171BB;
 }

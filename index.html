@@ -35,7 +35,7 @@
         </nav>
     </header>
     
-    <div class="algemeen" >
+    <div class="algemeen">
      <div id="underHeader">
       <h1>
         Duplicare  
@@ -46,43 +46,70 @@
         <span id="azuur">Agis</span> 
     </h1>
       </div>
-       <div class="kalender">
-           <table>
+      <div class="kalender">
+          <table>
               <tr>
-                   <th>23-25 september 2019</th>
-                   <th>Openingsweek</th>
-               </tr>
-               <tr>
-                  <th>27 september 2019</th>
-                  <th>Studay</th> 
-               </tr>
-               <tr>
-                  <th>28 september 2019</th>
-                   <th>Openingscantus</th>
-               </tr>
-                  <tr>
-                  <th>11 oktober 2019</th>
-                   <th>Prédoop</th>
-               </tr>
-               <tr>
-                  <th>17 oktober 2019</th>
-                   <th>Doop</th>
-               </tr>
-               <tr>
-                   <th>28 oktober 2019</th>
-                   <th>Doopcantus</th>
-               </tr>
-               <tr>
-                   <th>31 oktober 2019</th>
-                   <th>Halloween feestje</th>
-               </tr>
-               
-               <tr>
-                   <th>17 november 2019</th>
-                   <th>Winterwonderwandeling</th>
-               </tr>
-           </table>
-       </div>
+                  <th id="goud-background" rowspan="3">September</th>
+                  <th id="keel-background">23-25 september</th>
+                  <th id="azuur-background">Openingsweek</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">donderdag 26 september</th>
+                  <th id="azuur-background">Studay</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">vrijdag 27 september</th>
+                  <th id="azuur-background">Openingscantus</th>
+              </tr>
+              <tr>
+                  <th id="goud-background" rowspan="3">Oktober</th>
+                  <th id="keel-background">vrijdag 11 oktober</th>
+                  <th id="azuur-background">prédoop</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">donderdag 17 oktober</th>
+                  <th id="azuur-background">Doop</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">maandag 28 oktober</th>
+                  <th id="azuur-background">Doopcantus</th>
+              </tr>
+              <tr>
+                  <th id="goud-background" rowspan="3">November<th>
+                  <th id="keel-background">zondag 17 oktober</th>
+                  <th id="azuur-background">Winterwonderwandeling</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">donderdag 28 november</th>
+                  <th id="azuur-background">Pitch Perfect cantus</th>
+              </tr>
+              <tr>
+                  <th id="keel-background">maandag 28 oktober</th>
+                  <th id="azuur-background">Doopcantus</th>
+              </tr>
+          </table>
+      </div>
+      <!--<div class="kalender">
+          <button class="accordion" id="goud-background">September</button>
+            <div class="panel">
+              <p>23-25 september 2019: Openingsweek</p>
+              <p>donderdag 26 september: Studay</p>
+              <p>vrijdag 27 september: Openingscantus</p>
+            </div>
+
+        <button class="accordion" id="keel-background">Oktober</button>
+            <div class="panel">
+              <p>vrijdag 11 oktober: Prédoop</p>
+              <p>donderdag 17 oktober: Doop</p>
+              <p>maandag 28 oktober: Doopcantus</p>
+            </div>
+
+        <button class="accordion" id="azuur-background">November</button>
+            <div class="panel">
+              <p>zondag 17 september: Winterwonderwandeling</p>
+              <p>donderdag 28 november: Pitch Perfect cantus</p>
+            </div>   
+      </div>-->
         <div class="nieuwtjes">
             <div class="nieuwtje">
                 <h2>2019 - 2020</h2>
@@ -215,3 +242,19 @@
     </footer>
 </body>
 </html>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
