@@ -9,10 +9,13 @@
   float:left;
 }
  .clublied {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     vertical-align: middle;
     text-align: center;
-    margin-left: 15% }
+    font-size: 17px;;
+}
+
 .info {
   text-align: center;
   margin-right: 10%;

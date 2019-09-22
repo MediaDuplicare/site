@@ -3,7 +3,8 @@ p {
     display: grid;
     width: 50%;
     text-align: inherit;
-    margin-right: 10%
+    margin-right: 10%;
+    font-size: 20px;
 }
 
 #picture {
