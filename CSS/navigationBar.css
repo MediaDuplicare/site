@@ -1,4 +1,4 @@
-.navbar{ /* nav-element */
+    .navbar{ /* nav-element */
     display: block;
     flex-direction: row;
     justify-content: center;
@@ -12,8 +12,8 @@
     text-align: center;
     border-style: solid;
     border-collapse: collapse;
-    border-color: #a0a0a0;
-    background-color: #a0a0a0;
+    /*border-color: #a0a0a0;*/
+    /*background-color: #a0a0a0;*/
 }
 
 .navbarList-item{ /* li-element */
@@ -32,6 +32,11 @@
 a{
     text-decoration: none;
     color: black;
+}
+
+img{
+    width: 100%;
+    /*opacity: 0.5;*/
 }
 
 .trooperLink{
