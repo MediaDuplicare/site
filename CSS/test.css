@@ -1,5 +1,5 @@
 .anyClass {
-  height: 900px;
+  height: 730px;
   overflow-y: scroll;
 }
 
@@ -20,7 +20,7 @@ footer img{
 }
 
 nav{
-    background-image: url(../Pictures/rsz_groepsfoto_cutinlength.jpg);
+    background-image: url(../Pictures/rsz_groepsfoto_cutinlength.png);
     height:  670px;
     
 }
@@ -35,4 +35,14 @@ nav{
 
 .azuur{
     color: #0171BB;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #4285F4; 
+}
+
+.copyright{
+    color: black;
 }
