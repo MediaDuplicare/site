@@ -2,3 +2,37 @@
   height: 900px;
   overflow-y: scroll;
 }
+
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+nav{
+    background-image: url(../Pictures/rsz_groepsfoto_cutinlength.jpg);
+    height:  670px;
+    
+}
+
+.goud{
+    color: #FDF202;
+}
+
+.keel{
+    color: #EC1A25;
+}
+
+.azuur{
+    color: #0171BB;
+}
