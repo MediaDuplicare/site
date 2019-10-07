@@ -11,8 +11,20 @@ tr{
     justify-content: center;
 }
 
+/*th:hover{
+    transform: scale(1.01);
+    text-shadow: -1px -1px 0 #EC1A25,
+     1px -1px 0 #EC1A25,
+     -1px 1px 0 #EC1A25,
+    1px 1px 0 #EC1A25;
+}*/
+
 th:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
+    text-shadow: -1px -1px 0 #0171BB,
+     1px -1px 0 #0171BB,
+     -1px 1px 0 #0171BB,
+    1px 1px 0 #0171BB;
 }
 
 .img-border{
@@ -21,30 +33,34 @@ th:hover{
     height: 200px;
 }
 
+
+/* quick reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
 /* relevant styles */
 .img__wrap {
-  position: static;
-  height: 200px;
-  width: 200px;
-  border-radius: 5%;
-  margin: 12px;
+  position: relative;
+    margin: 10px;
 }
 
 .img__description {
-  position: static;
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  color: white;
-  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  color: #fff;
   visibility: hidden;
-  opacity: 0.5;
-  margin-top: -50px;
-  margin-left: 20px;
+  opacity: 0;
 
   /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s;
+  /*transition: opacity .2s, visibility .2s;*/
 }
 
 .img__wrap:hover .img__description {
