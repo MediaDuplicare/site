@@ -1,42 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Duplicare</title>
-<link rel="stylesheet" type="text/css" href="../CSS/NavigationBar.css">
-<link rel="stylesheet" type="text/css" href="../CSS/HuidigPraesidium.css">
-<link rel="stylesheet" type="text/css" href="../CSS/All.css">
-<link rel="icon" href="../Pictures/Wapenschild.png" type="image/png" sizes="16x16">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+<title>Huidig</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="../CSS/HuidigPraesidium.css">
+<link rel="stylesheet" href="../CSS/test.css">
 </head>
 <body id="main">
-    <header>
-        <nav class="navbar animated">
-            <ul class="navbarList">
-                <li class="navbarList-item"><a href="../index.html">Home</a></li>
-                <div class="dropdown">
-                   <li class="navbarList-item dropdown"><a href="../Pages/Algemeen.html">Info</a></li>
-                        <div class="dropdown-content">
-                            <a href="../Pages/Algemeen.html">Algemeen</a>
-                            <a href="../Pages/DeClub.html">De club</a>
-                            <a href="../Pages/Bacchus.html">Bacchus</a>
-                            <a href="../Pages/Barbier.html">Clubcafé</a>
-                        </div>
-                </div>
-                <li class="navbarList-item"><a href="../Pages/Fotogalerij.html">Fotogalerij</a></li>
-                <div class="dropdown">
-                    <li class="navbarList-item dropdown"><a href="../Pages/HuidigPraesidium.html">Praesidium</a></li>
-                        <div class="dropdown-content">
-                            <a href="../Pages/HuidigPraesidium.html">Huidig</a>
-                            <a href="../Pages/Geschiedenis.html">Geschiedenis</a>
-                        </div>
-                    </div>
-                <li class="navbarList-item"><a href="../Pages/Sponsers.html">Sponsers</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+  <button class="navbar-toggler fixed-top" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation" id="togglebutton">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse fixed-top" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto text-white" style="margin: 20px; font-size: 20px; ">
+           <a href="../index.html"><img alt="wapenschild" src="../Pictures/Wapenschild.png" style="height: 50px; margin-right: 20px;"></a>
+            <li class="nav-item active active">
+                <a class="nav-link" href="../index.html">HOME
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">INFO</a>
+
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../Pages/Algemeen.html">ALGEMEEN</a>
+                    <a class="dropdown-item" href="../Pages/DeClub.html">DE CLUB</a>
+                    <a class="dropdown-item" href="../Pages/Bacchus.html">BACCHUS</a>
+                    <a class="dropdown-item" href="../Pages/Barbier.html">CLUBCAFÉ</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="../Pages/Fotogalerij.html">FOTOGALLERIJ</a>
+            </li>
+            <li class="nav-item dropdown active">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRAESIDIUM</a>
+            
+                <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="../Pages/HuidigPraesidium.html">HUIDIG</a>
+                    <a class="dropdown-item" href="../Pages/Geschiedenis.html">GESCHIEDENIS</a>
+                </div>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="../Pages/Sponsers.html">SPONSORS</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</header>
     <!--
     praeses
     vice-praeses
@@ -45,7 +67,7 @@
     quaestor
     schachtenmeester
     schachtentemmer
-    zedenmeester0
+    zedenmeester
     feest
     SOC
     Media
@@ -56,88 +78,90 @@
             <tr>
                 <th class="img__wrap">
                     <a href="Personen/Kenny.html">
-                        <img class="img__img" src="../Pictures/Kenny.jpg">
-                        <p class="img__description"><!--KENNY BEAUFAYS-->PRAESES</p>
+                        <img class="img__img img-border" src="../Pictures/Kenny.jpg">
+                        <p class="img__description">PRAESES</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Jonas.html">
-                        <img class="img__img" src="../Pictures/Jonas.jpg">
-                        <p class="img__description"><!--JONAS VAN DE MOORTEL-->VICE-PRAESES</p>
+                        <img class="img__img img-border" src="../Pictures/Jonas.jpg">
+                        <p class="img__description">VICE-PRAESES</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Lissa.html">
-                        <img class="img__img" src="../Pictures/Lissa.jpg">
-                        <p class="img__description"><!--LISSA SMEUNINX-->CANTOR</p>
+                        <img class="img__img img-border" src="../Pictures/Lissa.jpg">
+                        <p class="img__description">CANTOR</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Mathias.html">
-                        <img class="img__img" src="../Pictures/Mathias.jpg">
-                        <p class="img__description"><!--MATHIAS DEMARR&#201;-->QUAESTOR</p>
+                        <img class="img__img img-border" src="../Pictures/Mathias.jpg">
+                        <p class="img__description">QUAESTOR</p>
                     </a>
                 </th>
             </tr>
             <tr>
                 <th  class="img__wrap">
                     <a href="Personen/Bert.html">
-                        <img class="img__img" src="../Pictures/Bert.jpg">
-                        <p class="img__description"><!--BERT ANTHONISSEN-->MEDIA/ABACTIS</p>
+                        <img class="img__img img-border" src="../Pictures/Bert.jpg">
+                        <p class="img__description">MEDIA/ABACTIS</p>
                     </a>
                 </th>
                 <th  class="img__wrap">
                     <a href="Personen/Seppe.html">
-                        <img class="img__img" src="../Pictures/Seppe.jpg">
-                        <p class="img__description"><!--SEPPE ROUSSEAU-->SCHACHTENMEESTER/<br>P.R.</p>
+                        <img class="img__img img-border" src="../Pictures/Seppe.jpg">
+                        <p class="img__description">SCHACHTENMEESTER/<br>P.R.</p>
                     </a>
                 </th>
                 <th  class="img__wrap">
                     <a href="Personen/Bart.html">
-                        <img class="img__img" src="../Pictures/Barry.jpg">
-                        <p class="img__description"><!--BART ROSCAM-->SCHACHTENTEMMER</p>
+                        <img class="img__img img-border" src="../Pictures/Barry.jpg">
+                        <p class="img__description">SCHACHTENTEMMER</p>
                     </a>
                 </th>
                 <th  class="img__wrap">
                     <a href="Personen/Robin.html">
-                        <img class="img__img" src="../Pictures/Robin.jpg">
-                        <p class="img__description"><!--ROBIN VANDERHAEGHEN-->ZEDENMEESTER</p>
+                        <img class="img__img img-border" src="../Pictures/Robin.jpg">
+                        <p class="img__description">ZEDENMEESTER</p>
                     </a>
                 </th>
             </tr>
             <tr>
                 <th class="img__wrap">
                     <a href="Personen/Wesly.html">
-                        <img class="img__img" src="../Pictures/Wesly.jpg">
-                        <p class="img__description"><!--WESLY CALLAERTS-->FEEST</p>
+                        <img class="img__img img-border" src="../Pictures/Wesly.jpg">
+                        <p class="img__description">FEEST</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Val%C3%A9rie.html">
-                        <img class="img__img" src="../Pictures/Val%C3%A9rie.jpg">
-                        <p class="img__description"><!--VAL&#201;RIE VAN BRUYSSEL-->S.O.C.</p>
+                        <img class="img__img img-border" src="../Pictures/Val%C3%A9rie.jpg">
+                        <p class="img__description">S.O.C.</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Yelle.html">
-                        <img class="img__img" src="../Pictures/Yelle.jpg">
-                        <p class="img__description"><!--YELLE DURANT-->MENTOR</p>
-                    </a>
-                </th>
-            </tr>
-            <tr>
-                <th class="img__wrap">
-                    <a href="Personen/Rob.html">
-                        <img class="img__img" src="../Pictures/Rob.jpg">
-                        <p class="img__description"><!--ROB KOUBA-->PETER HONORIS CAUSA</p>
+                        <img class="img__img img-border" src="../Pictures/Yelle.jpg">
+                        <p class="img__description">MENTOR</p>
                     </a>
                 </th>
                 <th class="img__wrap">
                     <a href="Personen/Gregory.html">
-                        <img class="img__img" src="../Pictures/Greg.jpg">
-                        <p class="img__description"><!--GREGORY VAN DE VLOET-->PETER HONORIS CAUSA</p>
+                        <img class="img__img img-border" src="../Pictures/Greg.jpg">
+                        <p class="img__description">PETER HONORIS CAUSA</p>
                     </a>
                 </th>
+                <th class="img__wrap">
+                    <a href="Personen/Rob.html">
+                        <img class="img__img img-border" src="../Pictures/Rob.jpg">
+                        <p class="img__description">PETER HONORIS CAUSA</p>
+                    </a>
+                </th>
+            </tr>
+            <tr>
+                
+                
             </tr>
         </table>
       </div>
@@ -145,6 +169,9 @@
         <a href="https://www.facebook.com/Duplicare" target="_blank"><img id="fb_logo" src="../Pictures/fb_logo.png" alt="facebook"></a>
         <a href="https://www.trooper.be/duplicareantwerpen" target="_blank"><img id="fb_logo" src="../Pictures/trooperlogo.jpg" alt="TROOPER"></a>
         <a href="https://www.instagram.com/duplicare_antwerpen" target="_blank"><img id="fb_logo" src="../Pictures/instagramLogo.png"></a>
+        <div class="copyright">
+            <p>&#169; media Duplicare 2019</p>
+        </div>
     </footer>
 </body>
 </html>

@@ -13,15 +13,12 @@ tr{
 
 th:hover{
     transform: scale(1.1);
-
 }
 
-img{
+.img-border{
     border-radius: 5%;
     width: 200px;
     height: 200px;
-    margin: 1200x;
-    
 }
 
 /* relevant styles */
@@ -29,8 +26,8 @@ img{
   position: static;
   height: 200px;
   width: 200px;
-    border-radius: 5%;
-    margin: 12px;
+  border-radius: 5%;
+  margin: 12px;
 }
 
 .img__description {
@@ -44,6 +41,7 @@ img{
   visibility: hidden;
   opacity: 0.5;
   margin-top: -50px;
+  margin-left: 20px;
 
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;

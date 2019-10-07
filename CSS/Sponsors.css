@@ -1,43 +1,32 @@
-#test{
-    position: static;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
+#barbier-image{
+    width: 180px;
 }
 
-table {
-    position: static;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    z-index: 1;
-}
-
-img{
-    position: static;
-    padding: 10px;
-    z-index: 1;
- 
-}
 
 #smulpaep-image{
-    width: 250px;
+    width: 180px;
 }
 
 #foodtruckfestival-image{
-    width: 250px;;
-}
-
-#quetzal-image{
-    width: 50%;
-}
-
-#barbier-image{
-    padding-top: 60px;
-    width: 40%;
+    width: 180px;
 }
 
 #carrefour-image{
-    width: 30%;
+    width: 180px;
+}
+
+#quetzal-image{
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.link{
+    padding: 10px;
 }

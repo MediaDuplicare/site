@@ -1,5 +1,5 @@
 .anyClass {
-  height: 730px;
+  height: 700px;
   overflow-y: scroll;
 }
 
@@ -21,8 +21,8 @@ footer img{
 
 nav{
     background-image: url(../Pictures/rsz_groepsfoto_cutinlength.png);
-    height:  670px;
-    
+    background-position: center;
+    height: 670px;
 }
 
 .goud{
@@ -45,4 +45,25 @@ background-color: #4285F4;
 
 .copyright{
     color: black;
+}
+
+@media (max-width: 600px) {
+    nav{
+        background-image: url(../Pictures/rsz_navigationbackground-phone.jpg);
+        background-position: center;
+        height: 644px;
+    }
+    
+    #basicExampleNav{
+        margin-top: 30px;
+    }
+    
+    #togglebutton{
+        margin: 5px;
+        background-color: black;
+    }
+    
+    nav{
+        width: auto;
+    }
 }
