@@ -1,3 +1,7 @@
+.drop-shasow{
+    text-shadow: 2px 2px 4px #000000;
+}
+
 .anyClass {
   height: 700px;
   overflow-y: scroll;
