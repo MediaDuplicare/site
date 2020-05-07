@@ -16,6 +16,12 @@ footer {
     padding-top: 20px;
 }
 
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 footer img{
     width: 70px;
     height: 70px;
