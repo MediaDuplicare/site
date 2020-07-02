@@ -16,7 +16,7 @@ footer {
     padding-top: 20px;
 }
 
-h1{
+.centerH1{
     display: flex;
     align-items: center;
     justify-content: center;
