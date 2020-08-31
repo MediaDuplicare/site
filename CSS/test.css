@@ -16,6 +16,27 @@ footer {
     padding-top: 20px;
 }
 
+.SchrijfJeIn{
+    text-align: center;
+}
+
+.SchrijfJeIn:link, .SchrijfJeIn:visited {
+  background-color: #0171BB;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%;
+  text-align: center;
+    
+}
+
+.SchrijfJeIn:hover, .SchrijfJeIn:active {
+  background-color: #0079c9;
+    text-align: center;
+}
+
 .centerH1{
     display: flex;
     align-items: center;
