@@ -19,7 +19,14 @@
     width: 180px;
     margin-bottom: 50px;
 }
-
+#Studant_original{
+    width: 180px;
+    
+}
+#Natalisschoonehidszorgen{
+    width: 180px;
+    height: 180px;
+}
 div{
     display: flex;
     flex-direction: column;
