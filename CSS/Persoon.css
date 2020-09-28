@@ -9,6 +9,8 @@ h1{
 .tekst{
     margin: 5%;
     font-size: 20px;
+    padding-right: 8%;
+    padding-left: 8%;
     display: flex;
     justify-content: center;
     text-align: center;
