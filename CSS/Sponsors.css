@@ -1,38 +1,53 @@
-#barbier-image{
-    width: 180px;
-}
-
-
-#smulpaep-image{
-    width: 180px;
-}
-
-#foodtruckfestival-image{
-    width: 180px;
-}
-
-#carrefour-image{
-    width: 180px;
-}
-
-#quetzal-image{
-    width: 180px;
-    margin-bottom: 50px;
-}
-#Studant_original{
-    width: 180px;
-    
-}
-#Natalisschoonehidszorgen{
-    width: 180px;
-}
-div{
+.sponsors{
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
 }
 
-.link{
-    padding: 10px;
+.sponsors a{
+    padding: 30px;
+}
+
+.sponsors a img{
+    width: 20rem;
+}
+
+.pr {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.fir-clickcircle {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 120px;
+    margin-right: 30px;
+}
+
+.fir-image-figure {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    position: relative;
+    text-decoration: none;
+}
+
+.fir-image-figure .caption, .fir-image-figure figcaption {
+    padding-left: 15px;
+}
+
+html.wf-active .fir-image-figure .fig-author-figure-title {
+    font-family: var(--fir-font-header);
+    font-size: 16px;
+}
+
+.fir-image-figure .fig-author-figure-title {
+    color: var(--fir-color-grey);
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 2px;
 }
