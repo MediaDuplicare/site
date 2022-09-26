@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3db6c14-cf92-4e92-91c7-3b65c98693d1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Alex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Alex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Elien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Elien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Michiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Michiel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Sam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Sam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Tessa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Tessa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Xander.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Xander.html" afterDir="false" />
-    </list>
+    <list default="true" id="a3db6c14-cf92-4e92-91c7-3b65c98693d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +48,7 @@
       <updated>1663657530868</updated>
       <workItem from="1663657532729" duration="5258000" />
       <workItem from="1663663825900" duration="705000" />
+      <workItem from="1664173000726" duration="7669000" />
     </task>
     <servers />
   </component>
