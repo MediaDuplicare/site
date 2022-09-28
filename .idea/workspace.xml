@@ -6,31 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3db6c14-cf92-4e92-91c7-3b65c98693d1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Algemeen.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Algemeen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Bacchus.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Bacchus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Barbier.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Barbier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/DeClub.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/DeClub.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Fotogalerij.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Fotogalerij.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Geschiedenis.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Geschiedenis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/HuidigPraesidium.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HuidigPraesidium.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Merchandise.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Merchandise.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Alex.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Alex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Anais.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Anais.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Bert.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Bert.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Cedric.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Cedric.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Elien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Elien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Glenn.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Glenn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Gregory.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Gregory.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Lissa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Lissa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Michiel.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Michiel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Rob.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Rob.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Robin.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Robin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Sam.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Sam.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Seppe.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Seppe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Tessa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Tessa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Personen/Xander.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Personen/Xander.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Prosenioren.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Prosenioren.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/Sponsers.html" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Sponsers.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,20 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/xander/projects/site&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/xander/projects/duplicare",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -76,7 +51,7 @@
       <workItem from="1663657532729" duration="5258000" />
       <workItem from="1663663825900" duration="705000" />
       <workItem from="1664173000726" duration="9973000" />
-      <workItem from="1664259227214" duration="346000" />
+      <workItem from="1664259227214" duration="1665000" />
     </task>
     <servers />
   </component>
