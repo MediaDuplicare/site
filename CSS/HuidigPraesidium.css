@@ -67,3 +67,13 @@ th:hover{
   visibility: visible;
   opacity: 1;
 }
+
+.img__wrap .hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img__wrap:hover .hover {
+    display: inline;
+}
